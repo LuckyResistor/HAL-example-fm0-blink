@@ -16,7 +16,7 @@ add_subdirectory(hal-toolchain/arduino-link)
 project(blink)
 
 # Set the upload port
-set(UPLOAD_PORT "/dev/cu.usbmodem14101")
+set(UPLOAD_PORT "/dev/cu.usbmodem141401")
 
 # Define the library to build.
 add_library(blink STATIC src/Application.cpp src/main.cpp)
