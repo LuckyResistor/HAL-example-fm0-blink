@@ -20,8 +20,7 @@
 //
 
 
-namespace lr {
-namespace Application {
+namespace lr::Application {
 
 
 /// The setup of the application.
@@ -34,7 +33,6 @@ void setup();
 void loop();
 
 
-}
 }
 
 

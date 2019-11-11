@@ -19,9 +19,9 @@
 //
 
 
-#include "Arduino.h"
-
 #include "Application.hpp"
+
+#include "hal-core/CoreFunctions.h"
 
 
 // Add setup code

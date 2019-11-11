@@ -24,11 +24,7 @@
 #include "hal-feather-m0/GPIO_FeatherM0.hpp"
 
 
-#pragma clang diagnostic ignored "-Wmissing-noreturn"
-
-
-namespace lr {
-namespace Application {
+namespace lr::Application {
 
 
 void setup()
@@ -50,6 +46,5 @@ void loop()
 }
 
 
-}
 }
 
